@@ -6,6 +6,10 @@ import Helicopter from "./assets/Helicopter.jpg";
 import nightlife from "./assets/nightlife.jpg";
 import luxury from "./assets/luxury.jpg";
 import immerse from "./assets/luxury.jpg";
+import mist from "./assets/mist.jpg";
+import seesight from "./assets/seesight.jpg";
+import offroad from "./assets/offroad.jpg";
+import lake from "./assets/lake.jpg";
 
 const data = [
   {
@@ -48,6 +52,25 @@ const data = [
         price: 365,
         image: boat,
       },
+      {
+        id: 5,
+        name: "Maid of the Mist",
+        duration: 3,
+        rating: 4.5,
+        numberOfReviews: 543,
+        price: 365,
+        image:mist,
+      },
+
+      {
+        id: 6,
+        name: "See Sight Tours",
+        duration: 4,
+        rating: 3.5,
+        numberOfReviews:786,
+        price:657,
+        image:seesight,
+      },
     ],
   },
   {
@@ -89,6 +112,24 @@ const data = [
         numberOfReviews: 462,
         price: 365,
         image:luxury,
+      },
+      {
+        id: 5,
+        name: "Hoover Dam and Lake Mead Cruise",
+        duration: 3,
+        rating: 4.5,
+        numberOfReviews: 362,
+        price:987,
+        image:lake,
+      },
+      {
+        id: 6,
+        name: "Vegas Off Road Tours",
+        duration: 5,
+        rating: 5,
+        numberOfReviews:767,
+        price: 565,
+        image:offroad,
       },
     ],
   },
