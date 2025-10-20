@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <AppBar/>
-      <Container sx={{ marginY: 5 }}>
+     <Container sx={{ marginY: 5 }} maxWidth="xl">
         {cities.map((city) => (
           <React.Fragment key={city.id}>
             <Typography
