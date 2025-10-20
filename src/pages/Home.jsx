@@ -4,13 +4,7 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import cities from "../data";
 import { Typography } from '@mui/material';
-import AppBar from '../component/AppBar';
 
-const Home = () => {
-  return (
-    <>
-      <AppBar/>
-     <Container sx={{ marginY: 5 }} maxWidth="xl">
         {cities.map((city) => (
           <React.Fragment key={city.id}>
             <Typography
