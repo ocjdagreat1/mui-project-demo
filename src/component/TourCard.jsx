@@ -39,20 +39,25 @@ const TourCard = ({ tour }) => {
   };
 
   return (
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={3} sx={{ display: "flex" }}>
       <ThemeProvider theme={theme}>
         <Paper
-          elevation={3}
-          sx={{
-            borderRadius: 3,
-            overflow: "hidden",
-            transition: "transform 0.3s ease, box-shadow 0.3s ease",
-            "&:hover": {
-              transform: "scale(1.03)",
-              boxShadow: "0 8px 20px rgba(0,0,0,0.15)",
-            },
-          }}
-        >
+  elevation={3}
+  sx={{
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: "100%",              // make all cards equal height
+    borderRadius: 3,
+    overflow: "hidden",
+    transition: "transform 0.3s ease, box-shadow 0.3s ease",
+    "&:hover": {
+      transform: "scale(1.03)",
+      boxShadow: "0 8px 20px rgba(0,0,0,0.15)",
+    },
+  }}
+>
+
           {/* Image */}
           <Box
   component="img"
