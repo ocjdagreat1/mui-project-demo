@@ -55,18 +55,21 @@ const TourCard = ({ tour }) => {
         >
           {/* Image */}
           <Box
-            component="img"
-            src={imgSrc}
-            alt={tour.name}
-            onError={handleImageError}
-            sx={{
-              width: "100%",
-              height: 180,
-              objectFit: "cover",
-              transition: "transform 0.3s ease",
-              "&:hover": { transform: "scale(1.05)" },
-            }}
-          />
+  component="img"
+  src={imgSrc}
+  alt={tour.name}
+  onError={handleImageError}
+  sx={{
+    width: "100%",
+    height: 200,              // make height consistent
+    aspectRatio: "16/9",      // ensures same proportions
+    objectFit: "cover",       // crop images evenly
+    objectPosition: "center", // keeps important parts centered
+    transition: "transform 0.3s ease",
+    "&:hover": { transform: "scale(1.05)" },
+  }}
+/>
+          
 
           {/* Tour Info */}
           <Box paddingX={2} paddingY={1.5}>
