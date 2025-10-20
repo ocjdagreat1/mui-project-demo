@@ -42,7 +42,7 @@ const TourCard = ({ tour }) => {
     <Grid item xs={12} sm={6} md={3}>
       <ThemeProvider theme={theme}>
         <Paper
-          elevation={4}
+          elevation={3}
           sx={{
             borderRadius: 3,
             overflow: "hidden",
