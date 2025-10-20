@@ -22,7 +22,7 @@ const Home = () => {
               Top {city.name} Tours
             </Typography>
 
-            <Grid container spacing={1}>
+          <Grid container spacing={{ xs: 2, sm: 3, md: 4 }}>
               {city.tours.map((tour, index) => (
                 <TourCard tour={tour} key={index} />
               ))}

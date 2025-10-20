@@ -61,10 +61,10 @@ const TourCard = ({ tour }) => {
   onError={handleImageError}
   sx={{
     width: "100%",
-    height: 200,              // make height consistent
-    aspectRatio: "16/9",      // ensures same proportions
-    objectFit: "cover",       // crop images evenly
-    objectPosition: "center", // keeps important parts centered
+    height: 200,             
+    aspectRatio: "16/9",     
+    objectFit: "cover",       
+    objectPosition: "center",
     transition: "transform 0.3s ease",
     "&:hover": { transform: "scale(1.05)" },
   }}
