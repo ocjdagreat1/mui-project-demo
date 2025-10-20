@@ -1,10 +1,10 @@
 import React from 'react'
-import TourCard from "./component/TourCard"
+import TourCard from "../component/TourCard"
 import Container from '@mui/material/Container';
 import  Grid  from'@mui/material/Grid';
-import cities from "./data.json"
+import cities from "../data.json"
 import { Typography } from '@mui/material';
-import AppBar from './component/AppBar';
+import AppBar from '../component/AppBar';
 
 const Home = () => {
   return (

@@ -19,7 +19,7 @@
         "rating": 3.5,
         "numberOfReviews": 641,
         "price": 385,
-        "image": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=80"
+        "image": "./assets/Helicopter.jpg"
       },
       {
         "id": 3,
