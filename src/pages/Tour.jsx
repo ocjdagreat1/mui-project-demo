@@ -8,12 +8,14 @@ import CustomizedAccordions from "../component/Accordian"
 import Paper from "@mui/material/Paper"
 import BottomNavigation  from "@mui/material/BottomNavigation";
 import BasicModal from "../component/Modal";
+import NavBar from "../component/NavBar"
 
 
 
 const Tour = () => {
   return (
     <>
+    <NavBar/>
     <Container sx={{width:900}}>
       
       <Typography variant ="h3" component="h1" marginTop={3}>

@@ -26,7 +26,7 @@ export default function ButtonAppBar() {
             Tours
           </Typography>
           <Button component={Link}
-  to="/Tour" color="inherit">Next-page</Button>
+  to="/" color="inherit">Back</Button>
         </Toolbar>
       </AppBar>
     </Box>
